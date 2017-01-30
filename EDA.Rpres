@@ -1,0 +1,113 @@
+Exploratory Data Analysis (EDA)
+========================================================
+author: "Vicki Hertzberg"
+date: "February 1, 2017"
+autosize: true
+
+
+
+==========================================================
+
+Recall the basic paradigm of Data Science
+
+Question => Data Acquisition => EDA => Model => Communicate
+
+==========================================================
+
+Today we are going to focus on Exploratory Data Analysis, or EDA.
+
+After you have acquired your data, but before you jump into modeling, you need to see what you have. This is the EDA step.
+
+==========================================================
+
+What EDA IS:
+
+Use 
+- Summary statistics
+- Simple visualizations
+
+in order to 
+
+- Better understand the data
+- Find clues about the data's tendencies
+- Assess data quality
+- Better formulate hypotheses and assumptions for the analyses.
+
+===========================================================
+
+What EDA is NOT:
+
+It is NOT making fancy visualizations.
+
+It is NOT making aesthetically pleasing visualizations.
+
+===========================================================
+
+EDA is about creating figures so that somebody can look at them and understand, within seconds, what is going on in your dataset.
+
+===========================================================
+
+The process is more like an iteration:
+
+EDA => clean => model => clean => EDA => model, etc.
+
+===========================================================
+
+What to look for:
+
+- Missing values
+- Patterns in missing values
+- What will you do with missing values?
+- Extrema
+- Do the extrema make sense?
+- What will you do with extrema?
+- Summary statistics (means, medians, modes, proportions)
+- Simple visualizations
+
+============================================================
+
+Types of simple visualizations
+
+- Univariate (bar graphs, histograms, box and whisker plots, ...)
+- Bivariate (scatter plots, line chart)
+- Multidimensional => plot every variable against every other one
+
+=============================================================
+
+The Flaws of Averages
+
+See [The Anscombe Quartet](https://en.wikipedia.org/wiki/Anscombe's_quartet)
+
+============================================================
+
+Moral of the Anscombe Quartet:
+
+PLOT YOUR DATA!!!
+
+===========================================================
+
+Suggested must haves for EDA:
+
+- Five number summaries (mean, median, min, max, q1, q3)
+- Histograms
+- Line charts
+- Box and whisker plots
+- Pairwise scatterplot matrices
+
+===========================================================
+
+Remember:
+
+- You are NOT creating a report.
+- You ARE trying to understand the problem.
+- The results of this part of the Data Science pipeline are ultimately throw-away.
+- Keep it simple!
+- Make sure you use reproducible methods.
+- Be one with the data.
+- Your results will only be as good as data quality and your understanding of it.
+
+============================================================
+
+What questions do you have?
+
+============================================================
