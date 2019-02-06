@@ -1,0 +1,15 @@
+Exploratory Data Analysis (EDA)
+---
+title: "Exploratory Data Analysis (EDA)"
+author: "Vicki Hertzberg"
+date: "January 30, 2017"
+output: html_document
+---
+
+==========================================================
+
+Recall the basic paradigm of Data Science
+
+Question -> Data Acquisition -> EDA -> Model -> Communicate
+
+==========================================================
