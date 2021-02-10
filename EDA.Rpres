@@ -9,6 +9,9 @@ autosize: true
 ==========================================================
 
 Recall the Basic Paradigm of Data Science
+```{r}
+
+```
 
 Question => Data Acquisition => EDA => Model => Communicate
 
